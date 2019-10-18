@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\bin\Debug\LifeTask.exe.config
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\bin\Debug\LifeTask.exe
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\bin\Debug\LifeTask.pdb
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\obj\Debug\LifeTask.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\obj\Debug\LifeTask.LifeForm.resources
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\obj\Debug\LifeTask.Properties.Resources.resources
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\obj\Debug\LifeTask.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\obj\Debug\LifeTask.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\obj\Debug\LifeTask.exe
+C:\Users\Admin\Documents\Учеба\Программирование\megafon\LifeTask\LifeTask\obj\Debug\LifeTask.pdb
