@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeTask", "LifeTask.csproj", "{49B66060-435C-41A7-B9FA-8A339AC1F5E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeTaskTests", "..\LifeTaskTests\LifeTaskTests.csproj", "{D7FCBC08-0B0C-427A-B009-65C2F7B1E813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{49B66060-435C-41A7-B9FA-8A339AC1F5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B66060-435C-41A7-B9FA-8A339AC1F5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B66060-435C-41A7-B9FA-8A339AC1F5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FCBC08-0B0C-427A-B009-65C2F7B1E813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FCBC08-0B0C-427A-B009-65C2F7B1E813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FCBC08-0B0C-427A-B009-65C2F7B1E813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FCBC08-0B0C-427A-B009-65C2F7B1E813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -72,9 +72,9 @@
             // 
             // checkBox1
             // 
-            this.checkBox1.Location = new System.Drawing.Point(1022, 79);
+            this.checkBox1.Location = new System.Drawing.Point(1022, 61);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(144, 24);
+            this.checkBox1.Size = new System.Drawing.Size(144, 44);
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "Start / stop";
             this.checkBox1.UseVisualStyleBackColor = true;

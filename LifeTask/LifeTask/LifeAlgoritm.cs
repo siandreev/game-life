@@ -9,7 +9,7 @@ namespace LifeTask
     /// <summary>
     /// The event-binding interface for the Form and Logic class.
     /// </summary>
-    interface Iview
+    public  interface Iview
     {  
         event Action TurnFinished;
         event Action ResetEvent;
@@ -19,11 +19,16 @@ namespace LifeTask
     /// <summary>
     /// A class that implements the logic of the game.
     /// </summary>
-    class LifeAlgoritm
+    public class LifeAlgoritm
     {
         private int size;
         private int[,] matrix;
         public event Action<int[,]> ColorizeEvent;
+
+        public int[,] Matrix
+        {
+            get => matrix;
+        }
 
         public LifeAlgoritm(int size, Iview view)
         {
@@ -32,6 +37,20 @@ namespace LifeTask
             view.ResetEvent += new Action(CreateMatrix);
             view.TurnFinished += new Action(TurnFinishedMethood);
             view.CreateEvent += new Action(CreateMatrix);
+        }
+
+        public LifeAlgoritm(int[,] matrix)
+        {
+            this.size = matrix.GetLength(0);
+            this.matrix = new int[size, size];
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    this.matrix[i, j] = matrix[i, j];
+                }
+            }
+            this.TurnFinishedMethood();
         }
 
         /// <summary>
@@ -127,7 +146,10 @@ namespace LifeTask
                 }
             }
             matrix = countNeighborsMatrix;
-            ColorizeEvent(matrix);
+            if (ColorizeEvent != null)
+            {
+                ColorizeEvent(matrix);
+            }
         }
     }
 }
