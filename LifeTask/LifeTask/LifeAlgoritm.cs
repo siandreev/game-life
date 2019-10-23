@@ -27,7 +27,7 @@ namespace LifeTask
 
         public int[,] Matrix
         {
-            get => matrix;
+            get { return matrix; }
         }
 
         public LifeAlgoritm(int size, Iview view)
