@@ -16,3 +16,8 @@ How to install and run
 
 You can only install and run the application on the Windows operating system, because it was created with .NET Framework.
 The executable file is located at LifeTask/bin/Debug/LifeTask.exe
+
+Unit tests
+----------
+
+The application successfully passes all unit tests and CI AppVeyor building.
